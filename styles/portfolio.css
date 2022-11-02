@@ -10,7 +10,6 @@
 
 body {
     font-family: var(--default-font-family);
-    background: #d3d1db;
 }
 
 h1, 
@@ -39,6 +38,10 @@ p {
     line-height: 30px;
 }
 
+.index {
+    background: #d3d1db;
+}
+
 .wrapper {
     background-image: url(/images/lines.jpg);
     text-align: center;
@@ -65,21 +68,32 @@ p {
     border-radius: 16px;
 }
 
-.about-section h1 {
+.content h1 {
     font-size: 64px;
     line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
 }
 
-.about-section {
+.content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 20px 0 0;
+    font-family: var(--default-font-family);
+}
+
+.content p {
+    font-size: 14px;
+}
+
+.content-container {
     padding: 160px 10px;    
 }
 
-.about-section-content {
+.content {
     margin: 30px;
 }
 
@@ -131,11 +145,11 @@ text-align: center;
     .wrapper {
         padding: 80px 20px; 
     }
-    .about-section {
+    .content {
         text-align: center;
         padding: 0;
     }
-    .about-section h1 {
+    .content h1 {
         font-size: 42px;
     }
     .wrapper p {
