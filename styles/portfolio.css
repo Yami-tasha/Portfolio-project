@@ -1,6 +1,5 @@
 :root {
     --first-color: white;
-    --secondary-color:  #f9f7fe;
     --third-color: #b3afc0;
     --fourth-color: black;
     --fifth-color: pink;
@@ -47,7 +46,7 @@ p {
 .wrapper {
     background-image: url(/images/lines.jpg);
     text-align: center;
-    padding: 160px 10px;
+    padding: 120px 10px;
 }
 
 .wrapper p {
@@ -65,9 +64,13 @@ p {
 }
 
 .project-block {
-    background-color: var(--secondary-color);
+    background-color: var(--first-color);
     padding: 40px;
     border-radius: 16px;
+}
+
+.block-only {
+    margin-top: 80px;
 }
 
 .content h1 {
@@ -75,10 +78,6 @@ p {
     line-height: 80px;
 }
 
-.content-container h2 {
-    font-size: 18px;
-    font-family: var(--default-font-family);
-}
 
 .content h3 {
     font-size: 24px;
@@ -91,9 +90,6 @@ p {
     font-size: 14px;
 }
 
-.content-container {
-    padding: 160px 10px;    
-}
 
 .btn-branding {
     background: var(--first-color);
@@ -111,6 +107,18 @@ p {
    box-shadow: none;
    transform: scale(1.1);
    border: 1px solid var(--third-color);
+}
+
+.nav-branding {
+    background: var(--fifth-color);
+}
+
+.nav-name {
+    font-size: 30px;
+}
+
+.nav-page {
+font-size: 24px;
 }
 
 .project-description {
@@ -177,5 +185,9 @@ footer .links a:hover {
     footer .links a{
         font-size: 24px;
         margin: 0 30px;
+    }
+    .nav-name,
+    .nav-page {
+      font-size: 18px;
     }
 }
